@@ -7,11 +7,11 @@ class QuizModel {
   final String title;
   final String image;
   final int questionAnsweredCount;
-  final List<QuestionModel> question;
+  final List<QuestionModel> questions;
 
   QuizModel({
     required this.title,
-    required this.question,
+    required this.questions,
     this.questionAnsweredCount = 0,
     required this.image,
     required this.level,
